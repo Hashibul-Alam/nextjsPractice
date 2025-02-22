@@ -7,7 +7,7 @@ const ProductPage = () => {
 
   const handleClick= () =>{
     console.log('Order Now')
-    router.back()
+    router.push('/')
   }
   return (
     <div>

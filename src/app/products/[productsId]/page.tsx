@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import { resolve } from 'path'
 
 type Prpos = {
   params: { productsId: string }

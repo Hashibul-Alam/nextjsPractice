@@ -19,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <header className="bg-gray-800 text-white p-4">
+      <body className="h-screen  flex flex-col">
+        <header className="bg-gray-800  text-white p-4">
           <nav className="container flex justify-center mx-auto">
             <ul className="flex space-x-4">
               <li>
@@ -40,7 +40,7 @@ export default function RootLayout({
         </header>
         {children}
         
-        <footer className="bg-gray-800 text-white p-4 text-center">
+        <footer className="bg-gray-800 text-white text-5xl leading-loose mt-auto text-center">
           <p> &copy; Ami Nijei 2025</p>
         </footer>
       </body>
